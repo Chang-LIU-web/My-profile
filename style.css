@@ -1,0 +1,87 @@
+/*colors and fonts*/
+body {
+    background-color: rgb(240,240,240);
+    font-family: Helvetica;
+    
+}
+
+
+ h1,h2,h3,h4{
+ 	font-family: 'Abril Fatface', cursive;
+ 	font-weight: bold;
+ }
+
+ p {
+ 	text-justify: center;
+ }
+ a{
+ 	color: #a195fb;
+    text-decoration: none;
+ 	transition: color 0.3s ease;
+ }
+ a:hover {
+    color: grey;
+    text-decoration: none;
+} 
+/*design*/
+@media (max-width: 760px){
+	.container{
+		background:#F3F7FF;
+		width: 600px;
+
+	}
+}
+
+.container{
+background:#F3F7FF;
+color: rgb(10,10,10,);
+padding: 50px 80px;
+box-shadow: 0px 10px 30px grey;
+margin: 50px;
+border-radius: 30px;
+} 
+#image{
+	width: 200px;
+    border-radius: 50%;
+    border: 10px solid #F4E6E7;
+    margin: 10px auto;
+
+
+}
+.boutton{ 
+	background-color: #D6D9FD;
+	padding: 15px 20px;
+	border-radius: 20px;
+	border: solid 20 #F4E6E7;
+    text-decoration: none; 
+    align-content: center;
+}
+.boutton:hover {
+    color: grey;
+    text-decoration: none;
+ }   
+.card-white{
+	padding: 25px 60px;
+	margin: 20px auto;
+	color:rgba(0,0,0,0.3);
+	text-align: center;
+}
+
+.titre-blue{
+	color: #8aa2ff;
+
+}
+.titre-blue-claire{
+	color: #98d3ff;
+}
+
+
+
+
+
+
+
+
+
+
+
